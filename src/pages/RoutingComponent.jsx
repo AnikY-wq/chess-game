@@ -10,8 +10,8 @@ export default function RoutingComponent() {
     return (
         <Router>
             <Routes>
-                <Route path="/chess-game/play" element={<App />} />
                 <Route path="/chess-game" element={<Home />} />
+                <Route path="/chess-game/play" element={<App />} />
             </Routes>
         </Router>
     )
